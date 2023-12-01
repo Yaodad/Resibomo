@@ -94,7 +94,7 @@ const Receipt = ({ editORDelete, onChanging }) => {
                 <p>CARDHOLDER: {user && user.email.split('@')[0].toUpperCase()}</p>
                 <div className='flex flex-col items-center justify-center py-8 font-medium text-primary text-center'>
                     <p>THANK YOU FOR VISITING!</p>
-                    <img src="../../public/assets/barcode.png" alt="barcode" />
+                    <img src="../public/assets/barcode.png" alt="barcode" />
                     <p className='tracking-widest'>resibomo.vercel.app</p>
                 </div>
             </div>
