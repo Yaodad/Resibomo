@@ -30,6 +30,9 @@ const Login = () => {
                 {error && <div className='w-full mt-3 p-2 rounded-md bg-[#f8d7da] border-[1px] border-[#f1aeb5] text-[#58151c] text-sm'>{error}</div>}
             </form>
             <p className='text-[14px] text-center pt-5'>No account? <Link to='/signup'><span className='text-tertiary hover:underline'>Create one!</span></Link></p>
+            <p className='text-[14px] text-start pt-5 font-bold'>Try Demo Accounts:</p>
+            <p className='text-[14px] text-start'>Email: <span className='text-tertiary'>DemoAccount1@test.com <span className='text-primary'>or</span> DemoAccount2@test.com</span></p>
+            <p className='text-[14px] text-start'>Password: <span className='text-tertiary'>DemoAccount123!</span></p>
         </div>
     </div>
   )
