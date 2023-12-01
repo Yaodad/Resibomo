@@ -10,7 +10,7 @@ body {
 }
 
 .bg {
-    background: url('public/assets/bgtop.jpg');
+    background: url('../public/assets/bgtop.jpg');
     background-position: top center;
     background-repeat: repeat-x;
     background-size: contain;
@@ -21,7 +21,7 @@ body {
 #receipt {
     width: 100%;
     height: auto;
-    background: url('public/assets/receipt-paper.jpg');
+    background: url('../public/assets/receipt-paper.jpg');
     background-position: top center;
     background-repeat: repeat-y;
     background-size: 100%;
