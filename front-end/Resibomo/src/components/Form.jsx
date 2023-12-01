@@ -32,7 +32,7 @@ const Form = () => {
 
         const item = { quantity, itemName, amount }
 
-        const response = await fetch('http://localhost:4000/api/items', {
+        const response = await fetch('https://resibomo-api.vercel.app/api/items', {
             method: 'POST',
             body: JSON.stringify(item),
             headers: {
@@ -64,7 +64,7 @@ const Form = () => {
             return
         }
 
-        const response = await fetch(`http://localhost:4000/api/items/${item._id}`, {
+        const response = await fetch(`https://resibomo-api.vercel.app/api/items/${item._id}`, {
             method: 'DELETE',
             headers: {
                 'Authorization': `Bearer ${user.token}`
@@ -90,7 +90,7 @@ const Form = () => {
             return
         }
 
-        const response = await fetch('http://localhost:4000/api/items/', {
+        const response = await fetch('https://resibomo-api.vercel.app/api/items/', {
             method: 'DELETE',
             headers: {
                 'Authorization': `Bearer ${user.token}`
@@ -120,7 +120,7 @@ const Form = () => {
 
         const changedItem = { quantity, itemName, amount }
 
-        const response = await fetch(`http://localhost:4000/api/items/${item._id}`, {
+        const response = await fetch(`https://resibomo-api.vercel.app/api/items/${item._id}`, {
             method: 'PATCH',
             body: JSON.stringify(changedItem),
             headers: {
@@ -151,7 +151,7 @@ const Form = () => {
             return
         }
 
-        const response = await fetch('http://localhost:4000/api/items', {
+        const response = await fetch('https://resibomo-api.vercel.app/api/items', {
             headers: {
                 'Authorization': `Bearer ${user.token}`
             }
