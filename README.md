@@ -2,7 +2,7 @@
 
 ## About the project
 
-**Resibomo** is a MERN web app for easy expense tracking! It is a CRUD app where user can add items to a receipt-like list, with real-time updates on total amount and item count. Edit, delete, or use the filter feature for quick searches. Delete all items using "void" button. Plus, download your receipt list as a PNG.
+**Resibomo** is a website for easy expense tracking! It is a CRUD app where user can add items to a receipt-like list, with real-time updates on total amount and item count. Edit, delete, or use the filter feature for quick searches. Delete all items using "void" button. Plus, download your receipt list as a PNG.
 
 👉🏼 **Live Demo:** [Resibomo site](https://resibomo.vercel.app/)
 
