@@ -1,4 +1,4 @@
-<div align='center'><img style='width:16%' src='front-end\Resibomo\public\assets\resibomo-logo.png' alt='btc-icon'></div>
+<div align='center'><img style='width:16%' src='front-end\Resibomo\public\assets\resibomo-logo.png' alt='resibomo-logo'></div>
 
 ## About the project
 
